@@ -1,0 +1,36 @@
+import { BaseEntity } from '@/common/base/base.entity';
+import { TagEntity, MediaEntity, UserEntity, CompanyEntity, CategoryEntity, ArticleHistoryEntity, ArticleMediaEntity, ArticleTagEntity } from '@entities';
+export declare class ArticleEntity extends BaseEntity<ArticleEntity> {
+    slug: string;
+    title?: string;
+    title_richtext?: string;
+    subtitle?: string;
+    description?: string;
+    content?: string;
+    grade?: number;
+    status: number;
+    published_at?: Date;
+    hidden_tags?: string[];
+    reporter_id?: number;
+    creator_name?: string;
+    approver_id?: number;
+    company_id: number;
+    representative_image?: any;
+    attach_files?: any[];
+    is_auto_save?: boolean;
+    page_view: number;
+    metadata?: any;
+    deleted_at?: Date;
+    count_version?: number;
+    current_version?: number;
+    tags: TagEntity[];
+    article_tags: ArticleTagEntity[];
+    media: MediaEntity[];
+    reporter: UserEntity;
+    approver: UserEntity;
+    company: CompanyEntity;
+    categories: CategoryEntity[];
+    histories: ArticleHistoryEntity[];
+    article_media: ArticleMediaEntity[];
+    attachments: MediaEntity[];
+}

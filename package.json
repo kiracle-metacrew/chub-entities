@@ -1,0 +1,15 @@
+{
+  "name": "@chub/entities",
+  "version": "1.0.0",
+  "description": "all entities of cms-hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chub",
+    "entities"
+  ],
+  "author": "Metacrew",
+  "license": "ISC"
+}
