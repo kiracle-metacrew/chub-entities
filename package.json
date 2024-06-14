@@ -1,6 +1,6 @@
 {
   "name": "@chub/entities",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "all entities of cms-hub",
   "main": "index.js",
   "scripts": {
