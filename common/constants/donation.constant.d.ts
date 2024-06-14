@@ -1,0 +1,18 @@
+export declare enum DONATION_STATUS {
+    INITIATED = 0,
+    CREATE_SUCCESS = 20,
+    CREATE_ERROR = 30,
+    PAY_PENDING = 35,
+    PAY_SUCCESS = 40,
+    PAY_CANCELED = 45,
+    PAY_ERROR = 50,
+    CONFIRM_DELIVERY_SUCCESS = 60,
+    CONFIRM_DELIVERY_ERROR = 70,
+    REFUND_SUCCESS = 80,
+    REFUND_ERROR = 90,
+    PAYMENT_SUCCESS = 100
+}
+export declare const DANAL_CHANNEL_DONATE = "donate";
+export declare const DANAL_CODE_STATUS: {
+    SUCCESS: string;
+};
